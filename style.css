@@ -211,7 +211,9 @@ nav ul li a:hover{
     transition: .4s;
     text-align: center;
  }
- 
+  .icon-style::before{
+ 	line-height: 30px;
+ }
  .icon-style:hover{
  	background-color: red;
     transform: scale(1.2);
