@@ -39,7 +39,7 @@ header{
 	padding: 0% 1%;
 	text-align: center;
 }
-.logo{
+.logo1{
 	width: 70px;
 	height: 70px;
 	line-height: 70px;
@@ -50,6 +50,9 @@ header{
 }
 .logo a i{
 	text-align: center;
+}
+.logo1::before{
+	line-height: 66px;
 }
 nav ul li{
 	display: block;
